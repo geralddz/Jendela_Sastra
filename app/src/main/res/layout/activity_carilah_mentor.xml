@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background_5"
+    tools:context=".Carilah_Mentor">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="10dp"
+        android:text="Carilah Mentor"
+        android:textColor="@color/white"
+        android:textSize="26sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_margin="10dp"
+        android:orientation="vertical"
+        android:background="@drawable/bgwhiteprofile">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center"
+            android:src="@drawable/carimentorpict"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:text="Carilah mentor dalam menulis"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="@color/black" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="20dp"
+        android:text="Terkadang kita memerlukan orang lain untuk membagi pengalman dalam menulis. Tak ada salahnya kamu berkenalan dengan penulis-penulis yang sudah lebih senior untuk menimba ilmu. Sekarang ada banyak penulis yang memiliki social media, bertemanlah dengan mereka."
+        android:textColor="@color/black" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="20dp"
+        android:text="Amati postingannya, tirulah sedikit cara mereka menulis. Ingat bukan plagiat lho! Berdialoglah dengan mereka, terkadang mereka senang kok berbagi ilmu dengan penulis pemula. Bahkan ada yang mengadakan kursus menulis gratis bagi para penulis pemula."
+        android:textColor="@color/black" />
+
+    </LinearLayout>
+</LinearLayout>

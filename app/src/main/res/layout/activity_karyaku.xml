@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Karyaku"
+    android:orientation="vertical"
+    android:background="@drawable/background_5">
+
+        <ImageButton
+            android:id="@+id/backkarya"
+            android:layout_width="20dp"
+            android:layout_height="25dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="20dp"
+            android:background="@color/material_on_surface_stroke"
+            android:src="@drawable/btnback" />
+
+        <ImageButton
+            android:id="@+id/simpan1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="18dp"
+            android:layout_marginStart="190dp"
+            android:src="@drawable/simpan1"
+            android:background="@color/material_on_surface_stroke"/>
+
+        <ImageButton
+            android:id="@+id/uplod1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="18dp"
+            android:layout_marginStart="290dp"
+            android:layout_marginEnd="30dp"
+            android:src="@drawable/uplod"
+            android:background="@color/material_on_surface_stroke"/>
+
+
+        <EditText
+            android:layout_width="380dp"
+            android:layout_height="50dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="100dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:inputType="text"
+            android:textSize="25sp"
+            android:hint="Judul"/>
+
+        <EditText
+            android:layout_width="380dp"
+            android:layout_height="60dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="150dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:inputType="text"
+            android:hint="Isi"/>
+
+        <ImageView
+            android:id="@+id/hslfoto"
+            android:layout_width="250dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="300dp"
+            android:background="@drawable/kotak"
+            android:padding="10dp" />
+
+</RelativeLayout>

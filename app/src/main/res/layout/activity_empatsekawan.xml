@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_5"
+    android:orientation="vertical"
+    tools:context=".empatsekawan">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:layout_centerHorizontal="true"
+        android:text="Empat Sekawan"
+        android:textColor="@color/white"
+        android:textSize="26sp"
+        android:textStyle="bold" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="610dp"
+        android:layout_marginTop="65dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@color/white"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/empatskwn" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:text="Prolog"
+                android:textColor="@color/black"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+            <View
+                android:layout_width="350dp"
+                android:layout_height="1dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:background="@color/black"
+                android:visibility="visible" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="20dp"
+                android:gravity="center"
+                android:text="“Bukan tentang berapa banyak teman yang kamu punya, namun berapa banyak teman yang bisa kamu punya”"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="20dp"
+                android:text="Petualangan empat sahabat yang menghabiskan waktu bersama, mereka bukan orang hitz atau orang punya, tapi bagiku mereka segalanya dari mereka aku belajar arti kebersamaan, tanggung jawab. Mereka memang berbeda tapi dengan perbedaan yang ada mereka mampu manjadi satu. Mereka adalah Sari,Wulan, Fika, dan Via."
+                android:textColor="@color/black" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="20dp"
+                android:text="Sari merupakan orang yang sangat aktif, yang pecicilan, yang gak bisa diem dari ketiga temannya, yang selalu cerewat, selalu ceria, selalu menciptakan suasana baru."
+                android:textColor="@color/black" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="20dp"
+                android:text="Wulan orang yang suka ngelawak, suka lucu-lucu, suka makan. Ya walaupun Wulan berbeda agama dengan ketiga temannya tetapi ia tak"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="20dp"
+                android:text="Pernah merasa terasingkan, dan teman-teman Wulan pun tidak pernah mempersalahkan itu. Karena ini lah mereka bisa belajar arti toleransi Fika orangnya nyebelin, cuek, irit ngomong, sekalinya ngomong gak berhenti, kalau ngomong mukanya datar kayak jalan tol, tomboy."
+                android:textColor="@color/black" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginBottom="30dp"
+                android:text="Via orangnya pendiem banget kalau gak ditanya gak bakal ngomong, tapi dia juga pendengar yang baik"
+                android:textColor="@color/black" />
+        </LinearLayout>
+    </ScrollView>
+
+        <ImageButton
+            android:id="@+id/bck"
+            android:layout_width="40dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="680dp"
+            android:background="@color/material_on_surface_stroke"
+            android:src="@drawable/back"
+            android:layout_marginStart="110dp"/>
+
+        <ImageButton
+            android:id="@+id/nxt"
+            android:layout_width="40dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="680dp"
+            android:layout_marginStart="250dp"
+            android:src="@drawable/next"
+            android:background="@color/material_on_surface_stroke"/>
+</RelativeLayout>

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_5"
+    android:orientation="vertical"
+    tools:context=".EditProfile">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:text="Edit Profile"
+        android:textColor="@color/white"
+        android:textSize="26sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+       android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/profile"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/bgwhiteprofile"
+        android:gravity="center"
+        android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/etemail"
+                android:layout_width="350dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:drawableLeft="@drawable/email"
+                android:hint="  Email"
+                android:inputType="textEmailAddress"/>
+
+            <EditText
+                android:id="@+id/etnama"
+                android:layout_width="350dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:drawableLeft="@drawable/icoprofile"
+                android:hint="  Nama"
+                android:inputType="text" />
+
+            <EditText
+                android:id="@+id/ethp"
+                android:layout_width="350dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:hint="  No. HP"
+                android:drawableLeft="@drawable/phone"
+                android:inputType="phone" />
+
+            <EditText
+                android:id="@+id/etuniv"
+                android:layout_width="350dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:drawableLeft="@drawable/sekolah"
+                android:hint="  Sekolah / Universitas"
+                android:inputType="text" />
+
+            <EditText
+                android:id="@+id/etbio"
+                android:layout_width="350dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:drawableLeft="@drawable/bio"
+                android:hint="  Bio"
+                android:inputType="text"/>
+
+        <ImageButton
+            android:id="@+id/btnsave"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/simpan"
+            android:src="@drawable/simpan" />
+    </LinearLayout>
+
+</LinearLayout>

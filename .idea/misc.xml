@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/FILE MI/Semester 2/Mobile Programming/Android Studio Project/SajakSastra2/SajakSastra2/app/src/main/res/layout/activity_challenge.xml" value="0.21145833333333333" />
+        <entry key="..\:/FILE MI/Semester 2/Mobile Programming/Android Studio Project/SajakSastra2/SajakSastra2/app/src/main/res/layout/activity_challenge1.xml" value="0.21145833333333333" />
+        <entry key="..\:/FILE MI/Semester 2/Mobile Programming/Android Studio Project/SajakSastra2/SajakSastra2/app/src/main/res/layout/activity_ciptakan.xml" value="0.20677083333333332" />
+        <entry key="..\:/FILE MI/Semester 2/Mobile Programming/Android Studio Project/SajakSastra2/SajakSastra2/app/src/main/res/layout/activity_edit_profile.xml" value="0.20677083333333332" />
+        <entry key="..\:/FILE MI/Semester 2/Mobile Programming/Android Studio Project/SajakSastra2/SajakSastra2/app/src/main/res/layout/activity_empatsekawan.xml" value="0.20677083333333332" />
+        <entry key="..\:/FILE MI/Semester 2/Mobile Programming/Android Studio Project/SajakSastra2/SajakSastra2/app/src/main/res/layout/activity_home.xml" value="0.21145833333333333" />
+        <entry key="..\:/FILE MI/Semester 2/Mobile Programming/Android Studio Project/SajakSastra2/SajakSastra2/app/src/main/res/layout/activity_karyaku.xml" value="0.18229166666666666" />
+        <entry key="..\:/FILE MI/Semester 2/Mobile Programming/Android Studio Project/SajakSastra2/SajakSastra2/app/src/main/res/layout/activity_latihan.xml" value="0.2" />
+        <entry key="..\:/FILE MI/Semester 2/Mobile Programming/Android Studio Project/SajakSastra2/SajakSastra2/app/src/main/res/layout/activity_library.xml" value="0.2" />
+        <entry key="..\:/FILE MI/Semester 2/Mobile Programming/Android Studio Project/SajakSastra2/SajakSastra2/app/src/main/res/layout/activity_login.xml" value="0.2" />
+        <entry key="..\:/FILE MI/Semester 2/Mobile Programming/Android Studio Project/SajakSastra2/SajakSastra2/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/FILE MI/Semester 2/Mobile Programming/Android Studio Project/SajakSastra2/SajakSastra2/app/src/main/res/layout/activity_profile.xml" value="0.2" />
+        <entry key="..\:/FILE MI/Semester 2/Mobile Programming/Android Studio Project/SajakSastra2/SajakSastra2/app/src/main/res/layout/activity_registrasi.xml" value="0.33" />
+        <entry key="..\:/FILE MI/Semester 2/Mobile Programming/Android Studio Project/SajakSastra2/SajakSastra2/app/src/main/res/layout/activity_splash_screen.xml" value="0.21145833333333333" />
+        <entry key="..\:/FILE MI/Semester 2/Mobile Programming/Android Studio Project/SajakSastra2/SajakSastra2/app/src/main/res/menu/menu.xml" value="0.20677083333333332" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
